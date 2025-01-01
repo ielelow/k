@@ -233,6 +233,7 @@ export abstract class FlatNote extends Note {
             this.linearEffectId,
             linearEffectLayout({
                 lane: this.import.lane,
+                shear: 0,
                 rotation: 0,
             }),
             0.5,
