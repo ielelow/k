@@ -66,7 +66,7 @@ export const linearEffectLayout = ({ lane, shear }: { lane: number; shear: numbe
     const t = 1 - 2 * h
 
     shear *= options.noteEffectSize
-    rotation *= Math.PI / 6,
+    rotation *= Math.PI / 6
 
     return {
         x1: lane - w,
