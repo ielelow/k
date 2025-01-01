@@ -106,6 +106,7 @@ export abstract class FlickNote extends FlatNote {
         this.directionalEffect.spawn(
             linearEffectLayout({
                 lane: this.import.lane,
+                shear: 0,
                 rotation: this.flickImport.direction,
             }),
             0.32,
